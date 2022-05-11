@@ -1,6 +1,6 @@
 Connect with Mysql database,
 
-Run migration to get required table,
+Run migration to get required tables,
 
 Use seeder to add test datas,
 
