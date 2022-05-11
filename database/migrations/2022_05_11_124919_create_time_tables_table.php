@@ -18,7 +18,6 @@ return new class extends Migration
             $table->foreignId('faculty_id')->constrained('faculties');
             $table->foreignId('subject_id')->constrained('subjects');
             $table->date('date');
-            $table->foreignId('term_id');
             $table->timestamp('session_start_time');
             $table->timestamp('session_stop_time');
             $table->time('duration');
